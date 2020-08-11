@@ -10,7 +10,7 @@ Rest Api Tutorials
 
 Just Django
 
-1-> https://www.youtube.com/watch?v=RPsDhoWY_kc
+1-> https://www.youtube.com/watch?v=RPsDhoWY_kc DONE
 2-> https://www.youtube.com/watch?v=CEAJGKXPEsY
 3-> https://www.youtube.com/watch?v=UZbyGMPJZV4
 4-> https://www.youtube.com/watch?v=23DypK_FBcw
@@ -30,6 +30,6 @@ Just Django -> 1
         As matter of proporse, one rest service can provide integration to mobile, web apps, or both
         Because thats all you really care... getting data or submitting data to that service.
 
-
-
  return JsonResponse(data, safe=False) -> This allow you use a list instead a dictionary
+
+        In this video, only 
