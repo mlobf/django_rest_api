@@ -33,3 +33,5 @@ Just Django -> 1
  return JsonResponse(data, safe=False) -> This allow you use a list instead a dictionary
 
         In this video, only 
+
+

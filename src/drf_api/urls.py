@@ -24,3 +24,6 @@ urlpatterns = [
     path("", TestView.as_view(), name="test"),
 ]
 
+
+
+
