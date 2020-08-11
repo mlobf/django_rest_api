@@ -20,3 +20,16 @@ Just Django
 Just Django -> 1
 
 
+    What is an API?
+
+    Application Programming Interface.
+
+    Why use/  build an API.
+        API only send and recived data using json format.
+        Thats allows you to send and receive data and integrate with multiple services.
+        As matter of proporse, one rest service can provide integration to mobile, web apps, or both
+        Because thats all you really care... getting data or submitting data to that service.
+
+
+
+ return JsonResponse(data, safe=False) -> This allow you use a list instead a dictionary
