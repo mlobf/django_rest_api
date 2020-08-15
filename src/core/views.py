@@ -16,8 +16,8 @@ class TestView(APIView):
 
     def post(self, request, *args, **kwargs):
         serializer = PostSerializers(data=request.data)
-        serializer.is_valid() 
-        serializer.save()
-        return Response(serializer.data)
-
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors)
 
