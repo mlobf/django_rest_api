@@ -7,3 +7,5 @@ class PostSerializers(serializers.ModelSerializer):
         model = Post
         fields = ("title", "description")
 
+
+
